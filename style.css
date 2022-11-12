@@ -36,3 +36,23 @@ body {
     box-shadow: none;
     transform: translateY(2px);
 }
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 500px;
+    width: 500px;
+    position: relative;
+}
+
+.boxes.big {
+    width: 600px;
+    height: 600px;
+}
+
+.box {
+    background-image: url('https://media0.giphy.com/media/vLpclx5lofmqnEswm0/giphy.gif?cid=ecf05e47l21dnlkz26w71z0uus955otuiilytg36sqsllc39&rid=giphy.gif&ct=g');
+    height: 125px;
+    width: 125px;
+}
